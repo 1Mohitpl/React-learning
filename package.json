@@ -1,0 +1,25 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Mohitpl/React-learning.git"
+  },
+  "author": "mohit kumar paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Mohitpl/React-learning/issues"
+  },
+  "homepage": "https://github.com/1Mohitpl/React-learning#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
