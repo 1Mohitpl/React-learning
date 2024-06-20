@@ -1,19 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+    // writing code in react in class functional way 
+const heading = (
+<h1 id="titele" key="h2">                         
+i want be an good software enginner
+</h1>);
 
 
+// writing react code in functional component
+const heading1 = ()=>{
+    return ( 
+    <div><h1>nameste react</h1> </div>);
+};
 
-const Heading1 = React.createElement("h1", {
-    id:"title1"
-}, "Heading1");
-
-const heading2 = React.createElement("h2",{
-  id:"title2"
-}, "heading2");
-
-const container = React.createElement("div",{
-id:"conatiner"
-}, [Heading1, heading2]);
+const heading2 = ()=>{    // just like arrow function
+  return <div><h1>Hello raect is just beast</h1></div>
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(container);
+root.render(heading1);
