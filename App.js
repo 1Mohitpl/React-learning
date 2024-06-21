@@ -1,35 +1,56 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-    // writing code in react in class functional way 
-const heading = (
-<h1  id="titele" key="h2">                         
-i want be an good software enginner
-</h1>);
-
-
+import logo from "./img/logo.png";
+// writing code
 // writing react code in functional component
-const Heading1 = function(){       
-    return (  
-    <div><h1>nameste react</h1> </div>);
-};
+const Title = () => (
+  <a href="/">
+    <div className="icon-name">
+      <img src={logo} alt="Logo" />
+      <h2 id="title">Eat&Chat</h2>
+    </div>
+  </a>
+);
 
-const HeadingComponent = ()=>{    // just like arrow function  // compoenent composition
-  return( 
-  
-<div className="main">   
-<div>
-
-     
-     <button type="clik">person</button>
-</div>                             
-    <Heading1 />    
-     {heading}
-  <h2>Hello raect is just beast </h2> 
-  <h2> hey,i am fronted enginner</h2>
-  
-</div>
+const HeadingComponent = () => {
+  // just like arrow function  // compoenent composition
+  return (
+    <div className="header">
+      <Title />
+      <div className="nave-items">
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+          <li>About</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+    </div>
   );
 };
 
+const Body = () => {
+  return (
+    <h2>Body</h2>
+  )
+}
+
+
+const Footer = () => {
+  return (
+    <h2>Footer</h2>
+  )
+}
+
+
+const AppLayout = () =>{
+  return (
+    <React.Fragment>
+    <Header/>
+    <Body/>
+    <Footer />
+</React.Fragment>
+  )
+}
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeadingComponent  />);
+root.render(<HeadingComponent />);
