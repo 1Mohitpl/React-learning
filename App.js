@@ -28,10 +28,32 @@ const HeadingComponent = () => {
     </div>
   );
 };
+const RestrauCrad = () => {
+  return (
+    <div className="Card">
+         <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b78fb4af57487179b0043cf69fadf8a8"/>
+          <h2>Pizza Hut</h2>
+          <h4> 4.3 stars Rating</h4>
+
+    </div>
+  )
+}
 
 const Body = () => {
   return (
+    <div className="Restrau-list">
+    <>
+    <RestrauCrad />
+    <RestrauCrad />
+    <RestrauCrad />
+    <RestrauCrad />
+    <RestrauCrad />
+    <RestrauCrad />
+  
+    
     <h2>Body</h2>
+    </>
+    </div>
   )
 }
 
@@ -45,12 +67,12 @@ const Footer = () => {
 
 const AppLayout = () =>{
   return (
-    <React.Fragment>
-    <Header/>
+    <>
+    <HeadingComponent/>
     <Body/>
     <Footer />
-</React.Fragment>
+</>
   )
 }
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeadingComponent />);
+root.render(<AppLayout/>);

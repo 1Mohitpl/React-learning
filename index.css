@@ -4,7 +4,7 @@
     justify-content: space-between;
     background-color: rgb(79 70 229);
     margin: 10px;
-    border: 2px solid;
+
 }
 
 .nave-items ul{
@@ -16,7 +16,7 @@
     
 }
 
-img{
+.icon-name img{
     width: 50px;
     border-radius: 50px;
 
@@ -32,3 +32,25 @@ img{
  
 }
 
+.Card{
+    width: 200px;
+    border: 2px solid orangered;
+    background-color: powderblue;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.Card >img{
+     width: 100%;
+     border-top-left-radius: 9px;
+     border-top-right-radius: 9px;
+}
+
+.Restrau-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+   
+}
