@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import logo from "./img/logo.png";
 // writing code
 // writing react code in functional component
 const Title = () => (
   <a href="/">
-    <div className="icon-name">
-      <img src={logo} alt="Logo" />
-      <h2 id="title">Eat&Chat</h2>
-    </div>
+  
+    <img className="logo" 
+    src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-food-logo-png-image_5687686.png" alt="Logo" />
+   
   </a>
 );
 

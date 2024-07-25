@@ -2,35 +2,28 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(79 70 229);
+    background-color: rgb(180 83 9);
     margin: 10px;
 
 }
 
-.nave-items ul{
+.nave-items > ul{
     list-style-type: none;
     display: flex;
 }
 .nave-items > ul >li{
     padding: 20px;
+    color: #ffff;
     
 }
 
-.icon-name img{
-    width: 50px;
-    border-radius: 50px;
-
-}
-.Logo{
-    
-    background-image: url(./img/logo.png)
+.logo{
+    width: 70px;
+    margin: 10px 10px ;
 }
 
-.icon-name{
-    display: flex;
-    justify-content:space-between;
- 
-}
+
+
 
 .Card{
     width: 200px;
