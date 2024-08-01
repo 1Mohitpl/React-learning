@@ -50,7 +50,7 @@ const Body = () => {
     <RestrauCrad />
   
     
-    <h2>Body</h2>
+  
     </>
     </div>
   )
@@ -66,10 +66,12 @@ const Footer = () => {
 
 const AppLayout = () =>{
   return (
-    <>
-    <HeadingComponent/>
+    <> 
+<HeadingComponent/>
     <Body/>
     <Footer />
+
+
 </>
   )
 }

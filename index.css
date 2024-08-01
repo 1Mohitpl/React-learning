@@ -4,11 +4,12 @@
     justify-content: space-between;
     background-color: rgb(180 83 9);
     margin: 10px;
+    border: 1px solid black;
 
 }
 
 .nave-items > ul{
-    list-style-type: none;
+    list-style-type: none;    /* i want to delete the small dots*/
     display: flex;
 }
 .nave-items > ul >li{
@@ -26,12 +27,13 @@
 
 
 .Card{
-    width: 200px;
+    width: 170px;
     border: 2px solid orangered;
     background-color: powderblue;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
     margin-top: 20px;
+    border: 1px solid black;
 }
 .Card >img{
      width: 100%;
