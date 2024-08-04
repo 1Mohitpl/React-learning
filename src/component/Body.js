@@ -5,7 +5,7 @@ import {useState} from "react";
 const Body = () => {
   // const searchtxt = "KFC"; // this is how created varibale in normla javascript it is hardcoded value, 
   // searchtext is a local state variable
-  const [searchtext, setSearchText] = useState("KFC");  // this is way  to create state variables comes form react
+  const [searchtext, setSearchText] = useState("sexy");  // this is way  to create state variables comes form react
 
   const [searchClicked, setsearchCliked] = useState("False");
 
